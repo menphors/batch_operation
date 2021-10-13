@@ -1,0 +1,37 @@
+<div class="tab-pane fade" id="completed" role="tabpanel" aria-labelledby="completed-tab">
+  <div class="card">
+                    <div class="card-header">Completed Transaction</div>
+
+                            <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr> 
+                                                <th scope="col">Remark</th>
+                                                <th scope="col">Execute Date</th>       
+                                                <th scope="col">Execute By</th>
+												<th scope="col">Amount</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           @foreach($completed_trns as $completed_trn)
+                                           <tr> 
+                                                <td> {{$completed_trn->offering_id}}</td>
+                                                <td>{{$completed_trn->remark}}</td>
+                                                <td>{{$completed_trn->effective_date}}</td>
+                                                <td>{{$completed_trn->execute_date}}</td>
+                                                <td>{{$completed_trn->created_at}}</td>
+                                                <td>{{$completed_trn->user_name}}</td>
+                                            
+                                            </tr>
+                                           @endforeach
+                                        
+                                        </tbody>
+                                    </table>
+                                    {{$completed_trns->links()}}
+                            </div>
+                            <!-- end card body -->
+                </div>
+                    <!-- end card -->
+  </div>
+</div>

@@ -1,0 +1,47 @@
+.apps{
+    padding-top: 18px;
+    width: 450px;
+    border: 1px solid #ccc;
+}
+.box{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.text-big{
+    font-size: 32px;
+}
+.brand > a{
+    text-decoration: none;
+}
+.mx-bottom{
+    margin-bottom: 27px;
+}
+.mx-left{
+    margin-left: 18px!important;
+}
+label, .control-label{
+    font-weight: normal!important;
+}
+.mx-btn{
+    margin-left: 15px;
+}
+.btnx{
+    text-decoration: none!important;
+}
+.card-block{
+    padding-top: 0 !important;
+}
+.small-text{
+    font-size: 12px;
+}
+.card{
+    margin-top: -27px;
+}
+hr{
+    margin-top: 0;
+}
+.btn-sm{
+    font-size: 12px;
+    padding-top: 5px;
+}

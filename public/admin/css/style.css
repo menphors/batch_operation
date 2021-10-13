@@ -1,0 +1,38 @@
+@font-face{
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu.ttf);
+}
+
+html, body{
+    font-family: ubuntu;
+}
+
+header.header{
+    background-color: #009a3e;
+    color: #ffffff;
+}
+.header .header-block-nav > ul > li > a{
+    color: #ffffff;
+}
+.sidebar .sidebar-menu li a{
+    color: #ffffff;
+}
+.sidebar .sidebar-menu > li > .sidebar-nav > li.active a{
+    color: #009a3e;
+}
+.sidebar .sidebar-menu > li.active > a, .sidebar .sidebar-menu > li.active > a:hover{
+    background-color: #009a3e !important;
+}
+
+.sidebar .label-screenful{
+    background-color: #85ce36;
+    color: #fff;
+}
+.upper{
+    text-transform: uppercase;
+}
+
+.form-group.requiredptp .col-form-label:after {
+    content:"*";
+    color:red;
+}
